@@ -13,3 +13,26 @@
  *= require_tree .
  *= require_self
  */
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+body {
+  margin: 33px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.table > thead > tr > th {
+  background-color: #5d9965;
+  color: #393f4d;
+
+}
+ table{
+   width: 100%;
+   word-break:break-all
+ }
+
+ .table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+  background-color: #393f4d;
+}
